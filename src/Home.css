@@ -1,0 +1,56 @@
+.home {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1500px;
+}
+
+.home__row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+
+
+.home__image {
+  width: 100vw;
+  z-index: -1;
+  /* margin-bottom: -150px; */
+  height: 80vh;
+  object-fit: cover;
+  /* width: 100vw; */
+  /* margin-top: 50px; */
+  /* height: 100%; */
+  /* object-fit: contain; */
+  animation: zoom-out 2s ease-out;
+  /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+}
+
+.zoomout {
+  margin-bottom: -150px;
+  height: 80vh;
+  overflow: hidden;
+}
+
+#shopgiftify {
+  top: 180px;
+  left: 38vw;
+  z-index: 90;
+  color: white;
+  font-weight: bolder;
+  font-size: 60px;
+  position: absolute;
+  animation-delay: 1s;
+}
+
+@keyframes zoom-out {
+  0% {
+  transform: scale(1.5, 1.5);
+  }
+  100% {
+  transform: scale(1, 1);
+  }
+  }
