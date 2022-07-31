@@ -1,18 +1,20 @@
 import firebase from "firebase";
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyCcPSKlYtpdzBoAC8soeSmIARMzVKzrf5I",
-  authDomain: "challenge-4b2b2.firebaseapp.com",
-  databaseURL: "https://challenge-4b2b2.firebaseio.com",
-  projectId: "challenge-4b2b2",
-  storageBucket: "challenge-4b2b2.appspot.com",
-  messagingSenderId: "962418448875",
-  appId: "1:962418448875:web:f6cce5eeaf819481f661ae",
+  apiKey: "AIzaSyCFgHVH0qGKtse4OJELSrkxGiJ9rGXCUVA",
+  authDomain: "giftify-db873.firebaseapp.com",
+  projectId: "giftify-db873",
+  storageBucket: "giftify-db873.appspot.com",
+  messagingSenderId: "935463926867",
+  appId: "1:935463926867:web:49e6722050eb9549af5aa6"
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
 const db = firebaseApp.firestore();
 const auth = firebase.auth();
+
+
 
 export { db, auth };

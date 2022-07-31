@@ -46,7 +46,7 @@ function Payment() {
 
         const payload = await stripe.confirmCardPayment(clientSecret, {
             payment_method: {
-                card: elements.getElement(CardElement)
+                card: elements.getElement(CardElement),
             }
         }).then(({ paymentIntent }) => {
             // paymentIntent = payment confirmation
@@ -145,9 +145,11 @@ function Payment() {
                                         thousandSeparator={true}
                                         prefix={"$"}
                                     />
-                                    <button disabled={processing || disabled || succeeded}>
+                                    <section className="sec2">
+                                    <button className="view_features" disabled={processing || disabled || succeeded}>
                                         <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
                                     </button>
+                                    </section>
                                 </div>
 
                                   {/* Errors */}

@@ -5,7 +5,7 @@
   background-color: black;
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 10000;
   width: 100vw;
 }
 
@@ -15,6 +15,12 @@
   margin: 0 20px;
   margin-top: 10px;
 }
+.smthing ul li{
+  display: flex;
+  
+  color: white;
+}
+
 
 .header__search {
   display: flex;
