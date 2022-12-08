@@ -1,68 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Inspiration ✨
+Our inspiration to build this project came from our experiences of shopping and going to in-person stores to find somthing unique and attractive from a younger age.
 
-## Available Scripts
+## What it does 🤔❓
+Giftify’s main purpose is to provide a store interface and have exciting gifts for your loved ones. This design style coupled with our community social media page provides users with an all-rounded shopping experience. Our online shop resembles an e-commerce website with the ability to add to a cart and subsequently obtain a checkout summary.
 
-In the project directory, you can run:
+## How we built it ✅📝
+This project’s technical components can be broken down into the traditional e-commerce website and the react and database-centered social media platform. For the e-commerce website, we used HTML, CSS, and React.js in order to create both our clean and aesthetically pleasing interface that is at the same time powerful through our add-to-cart and serverless-technology-based backend. For the Social Media portion, we used React.js, Node.js, Tailwind.css, material UI and Google Firebase Databases. We use both traditional react classes for our most basic functions and also employ various react hooks, especially in the theme adaptions and the send buttons. Through our study of the firebase google documentation and debugging through firebase command line, we were able to successfully create this website. We implemented the add to cart functionality by using React Context API .By using firebase authentication we also have a log-in and sign-up feature in which user has to authenticate or authorize before purchasing. Moreover, our application has a payment processing functionality in which we used Stripe API's to transfer the money in our account .
 
-### `npm start`
+By using all of these skills and programming languages in tandem, we created an automated and cohesive web application that we believe brings the fun back into shopping.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Challenges we ran into 🤞😩
+As we were new to the React world, implementing React context APIs was a big challenge for us.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+In using Firebase APIs we were having some initial problems in configuring serverless technology as we were relatively new to it.
 
-### `npm test`
+We surfed the internet -- approached different technical websites, learned new things, and were able to tackle the bugs.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Accomplishments that we're proud of ✨💫
+As a group, we are extremely proud of the work that we’re submitting to this hackathon. We started out with just a rough idea and using our knowledge and skills we were able to create what we had foreseen in those initial planning stages. We’re particularly happy with the payment pathway system .
 
-### `npm run build`
+## What we learned 📝🙌
+As a group, we furthered our overall knowledge of React, Node, and firebase. With many of us experimenting with this software as novices, through this project we’re now at a place we are comfortable with the ins and outs of react and all the different technology that we used. On the other hand, this project also humbled us into releasing how powerful even traditional react.js can be. Through our experiences, we have grown as programmers in all aspects.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## What's next for Giftify 🚀🚀
+Our Next steps for Giftify are to add more products to our page as well as to add characterisation for products. We’re envisioning our app with more items as well as possibly a form of machine learning that helps give a user personalized products based on their interests by search bar.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Devpost-link
+https://devpost.com/software/giftify
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
